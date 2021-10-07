@@ -1,0 +1,33 @@
+/* -- tag selectors -- */
+body {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: end;
+}
+
+ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  padding-right: 40px;
+}
+
+/* -- class selectors -- */
+
+.logo-insta,
+.logo-facebook,
+.logo-twitter {
+  width: 25px;
+  height: auto;
+}
+
+.logo-insta:hover,
+.logo-facebook:hover,
+.logo-twitter:hover {
+  width: 30px;
+  height: auto;
+}
+
