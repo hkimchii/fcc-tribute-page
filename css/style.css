@@ -83,7 +83,7 @@ h1 {
   width: 90vw;
 }
 
-#img-caption {
+#header-img-caption {
   text-align: right;
   margin-right: 50px;
   font-size: 0.8vw;
@@ -245,10 +245,48 @@ h1 {
     margin: 0;
   }
 
-
   .body2-img {
     width: 30vw;
     margin-top: 200px;
     margin-right: 100px;
   }
+}
+
+/* --- Bottom container --- */
+
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.bottom-img {
+  width: 80vw;
+}
+
+#img-caption {
+  font-size: 0.8vw;
+}
+
+@media (min-width: 900px) {
+  .bottom-container {
+    margin-top: 150px;
+  }
+  .bottom-img {
+    width: 55vw;
+    position: relative;
+    right: 100px;
+  }
+}
+
+/* --- Footer container --- */
+
+.footer-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.copyright {
+  font-size: 12px;
 }
