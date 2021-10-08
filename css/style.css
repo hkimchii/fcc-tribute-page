@@ -181,4 +181,68 @@ h1 {
   .body-text-content {
     width: 35vw;
     text-align: left;
+    margin: 0;
+  }
+}
+
+/* --- Body2 container --- */
+
+.body2-container {
+  display: grid;
+  justify-items: center;
+  width: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas: 
+    "image"
+    "text"; 
+}
+
+.body2-item1 {
+  grid-area: text;
+}
+
+.body2-item2 {
+  grid-area: image;
+}
+
+.body2-img {
+  width: 90vw;
+}
+
+#body2-img-caption {
+  font-size: 0.8vw;
+}
+
+.body2-text-content {
+  width: 70vw;
+  text-align: center;
+}
+
+@media (min-width: 900px) {
+.body2-container {
+  display: flex;
+  gap: 80px;
+  margin: 100px 50px;
+  }
+
+  .body2-item1{
+    margin-top: 15em;
+  }
+
+  .body2-text-content {
+    width: 35vw;
+    text-align: left;
+    margin: 0;
+  }
+
+  .body2-item2{
+    margin: 0;
+  }
+
+  .body2-img {
+    width: 25vw;
+    margin-top: 200px;;
+  }
+
 }
