@@ -88,7 +88,6 @@ h1 {
   font-size: 0.8vw;
 }
 
-
 @media (min-width: 900px) {
   .header-container {
     justify-items: left;
@@ -134,7 +133,7 @@ h1 {
   grid-template-rows: 1fr auto;
   grid-template-areas:
     "image"
-    "text"; 
+    "text";
 }
 
 .body-item1 {
@@ -165,23 +164,25 @@ h1 {
     margin: 100px 50px;
   }
 
-  .body-item1{
+  .body-item1 {
     margin: 0;
   }
 
   .body-img {
-    width: 50vw;
+    width: 40vw;
     margin-top: 200px;
   }
 
   .body-item2 {
-    margin-top: 13em;
+    margin-top: 200px;
+    margin-right: 50px;
   }
 
   .body-text-content {
     width: 35vw;
     text-align: left;
-    margin: 0;
+    margin-right: 50px;
+    margin-top: 0;
   }
 }
 
@@ -193,9 +194,9 @@ h1 {
   width: 100%;
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr;
-  grid-template-areas: 
+  grid-template-areas:
     "image"
-    "text"; 
+    "text";
 }
 
 .body2-item1 {
@@ -220,14 +221,15 @@ h1 {
 }
 
 @media (min-width: 900px) {
-.body2-container {
-  display: flex;
-  gap: 80px;
-  margin: 100px 50px;
+  .body2-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    margin: 100px 50px;
   }
 
-  .body2-item1{
-    margin-top: 15em;
+  .body2-item1 {
+    margin-top: 200px;
   }
 
   .body2-text-content {
@@ -236,13 +238,14 @@ h1 {
     margin: 0;
   }
 
-  .body2-item2{
+  .body2-item2 {
     margin: 0;
   }
 
-  .body2-img {
-    width: 25vw;
-    margin-top: 200px;;
-  }
 
+  .body2-img {
+    width: 30vw;
+    margin-top: 200px;
+    margin-right: 100px;
+  }
 }
