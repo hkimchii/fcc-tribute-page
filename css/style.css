@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #faf5e3;
 }
 
 /* --- Nav container --- */
@@ -90,6 +91,7 @@ h1 {
 
 @media (min-width: 900px) {
   .header-container {
+    width: 100%;
     justify-items: left;
     grid-template-columns: 1fr auto;
     grid-template-rows: auto 1fr;
@@ -142,6 +144,7 @@ h1 {
 
 #body-img-caption {
   font-size: 0.8vw;
+  margin-left: 50px;
 }
 
 .body-item2 {
@@ -159,29 +162,30 @@ h1 {
 
 @media (min-width: 900px) {
   .body-container {
+    width: 100%;
     display: flex;
     gap: 80px;
-    margin: 100px 50px;
   }
 
   .body-item1 {
     margin: 0;
+    flex: 1 1 auto;
   }
 
   .body-img {
     width: 40vw;
     margin-top: 200px;
+    margin-left: 50px;
   }
 
   .body-item2 {
     margin-top: 200px;
-    margin-right: 50px;
+    flex: 1 1 auto;
   }
 
   .body-text-content {
     width: 35vw;
     text-align: left;
-    margin-right: 50px;
     margin-top: 0;
   }
 }
@@ -225,7 +229,6 @@ h1 {
     display: flex;
     justify-content: space-between;
     gap: 80px;
-    margin: 100px 50px;
   }
 
   .body2-item1 {
@@ -235,7 +238,7 @@ h1 {
   .body2-text-content {
     width: 35vw;
     text-align: left;
-    margin: 0;
+    margin-left: 50px;
   }
 
   .body2-item2 {
